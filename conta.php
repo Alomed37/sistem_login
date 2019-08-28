@@ -2,7 +2,7 @@
 
 date_default_timezone_set('America/Sao_Paulo');
 
-require_once 'classes/usuarios_buscar.php'; //requer o arquivo que contem a classe das funçoes
+require_once 'usuarios_buscar.php'; //requer o arquivo que contem a classe das funçoes
 
 session_start();        //incia a sessão 
 
