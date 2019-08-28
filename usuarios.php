@@ -70,8 +70,7 @@
 			$sql->bindValue(":novasenhaup", $novasenhaup);
 			$sql->bindValue(":id_usuario", $id_usuario);
 			$sql->execute();
-			$dado = $sql->fetch();
-			return $dado;
+			
 		}
 	}
 
