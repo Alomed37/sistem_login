@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/usuarios.php';
+require_once 'usuarios.php';
 $u = new Usuario;
 ?>
 <!DOCTYPE html>
