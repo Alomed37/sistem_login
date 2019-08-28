@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/usuarios.php';
+require_once 'usuarios.php';
 $u = new Usuario; //herda da classe acima transforma em variavel
 ?>
 <html lang="pt-br">
