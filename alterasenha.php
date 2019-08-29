@@ -31,6 +31,8 @@ $u = new Usuario; //herda da classe acima transforma em variavel
 
 <?php
 
+session_start();
+$id_usuario = $_SESSION['id_usuario'];
 
 if (isset($_POST['novasenha'])) {
 
